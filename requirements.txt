@@ -3,4 +3,7 @@ Flask>=2.0
 requests>=2.25
 flask-cors>=3.0
 
+# Production WSGI server so Render can run the Flask app
+gunicorn>=20.0
+
 # None required for the template script. Python 3.8+ standard library only.

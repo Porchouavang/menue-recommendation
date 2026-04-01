@@ -1,0 +1,6 @@
+# Server dependencies for optional image search proxy
+Flask>=2.0
+requests>=2.25
+flask-cors>=3.0
+
+# None required for the template script. Python 3.8+ standard library only.

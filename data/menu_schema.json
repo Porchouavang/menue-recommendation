@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MenuItem",
+  "type": "object",
+  "properties": {
+    "id": {"type": "string"},
+    "name": {
+      "type": "object",
+      "properties": {
+        "en": {"type": "string"},
+        "lo": {"type": "string"},
+        "hm": {"type": "string"}
+      },
+      "required": ["en"]
+    },
+    "transliteration": {
+      "type": "object",
+      "properties": {
+        "lo_to_latn": {"type": "string"},
+        "hm_to_latn": {"type": "string"}
+      }
+    },
+    "pronunciation": {
+      "type": "object",
+      "properties": {
+        "lo": {"type": "string"},
+        "hm": {"type": "string"}
+      }
+    },
+    "category": {"type": "string"},
+    "description": {
+      "type": "object",
+      "properties": {
+        "en": {"type": "string"},
+        "lo": {"type": "string"},
+        "hm": {"type": "string"}
+      }
+    },
+    "ingredients": {"type": "array", "items": {"type": "string"}},
+    "allergens": {"type": "array", "items": {"type": "string"}},
+    "price": {"type": "number"},
+    "currency": {"type": "string", "default": "LAK"},
+    "image": {"type": "string"},
+    "tags": {"type": "array", "items": {"type": "string"}},
+    "cultural_notes": {"type": "object", "properties": {"en": {"type": "string"}, "lo": {"type": "string"}, "hm": {"type": "string"}}},
+    "spice_level": {"type": "integer", "minimum": 0, "maximum": 5},
+    "recommended_pairings": {"type": "array", "items": {"type": "string"}},
+    "availability": {"type": "string"},
+    "preparation_time_minutes": {"type": "integer"}
+  },
+  "required": ["id", "name", "category", "price"]
+}

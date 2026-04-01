@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Menu Recommendations — Lao & Hmong</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href='https://fonts.googleapis.com/css?family=Noto Sans Lao' rel='stylesheet'>
+</head>
+<style>
+    * {
+        font-family: 'Noto Sans Lao', sans-serif;
+    }
+</style>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>ເມນູແນະນຳ</h1>
+      <p class="lead">ກັ່ນຕອງ ແລະ ເບິ່ງຕົວຢ່າງລາຍການເມນູເປັນພາສາລາວ, ມົ້ງ ແລະ ພາສາອັງກິດ. ປັບສະພາບອາກາດ, ອາລົມ ແລະ ງົບປະມານເພື່ອຮັບຄຳແນະນຳທີ່ເໝາະສົມ.</p>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="controls">
+      <form id="filters" class="filters-form">
+        <div class="row">
+          <label>ພາສາ
+            <select id="lang">
+              <option value="en">ອັງກິດ</option>
+              <option value="lo">ລາວ</option>
+              <option value="hm">ມົ້ງ</option>
+            </select>
+          </label>
+
+          <label>ອາກາດເປັນແນວໃດ
+            <select id="weather">
+              <option value="">Any</option>
+              <option value="hot">ຮ້ອນ</option>
+              <option value="cold">ເຢັນ</option>
+              <option value="rainy">ຝົນຕົກ</option>
+            </select>
+          </label>
+
+          <label>ຄວາມສະດວກ / ອາລົມ
+            <input id="feel" list="feel_options" placeholder="comfort, light, festive, refreshing" />
+          </label>
+        </div>
+
+        <div class="row">
+          <label>ງົບປະມານທີ່ຕ້ອງການ
+            <input id="budget" list="budget_options" placeholder="e.g. 20000 or cheap/medium/expensive" />
+          </label>
+
+          <label>ປະເພດ
+            <input id="category" list="category_options" placeholder="Main, Starter, Staple" />
+          </label>
+
+          <label>ສະໄຕ / ແທັກ
+            <input id="styles" list="styles_options" placeholder="comma separated: spicy,vegan,grilled" />
+          </label>
+        </div>
+
+        <!-- Suggested options for inputs: users can pick from these or type their own -->
+        <datalist id="feel_options">
+          <option value="comfort">ສະດວກ</option>
+          <option value="light">ບັນດາດ</option>
+          <option value="festive">ງານບັນດາດ</option>
+          <option value="refreshing">ບັນດາດໃໝ່</option>
+          <option value="celebration">ງານບັນດາດ</option>
+        </datalist>
+
+        <datalist id="budget_options">
+          <option value="cheap">ຖືກ</option>
+          <option value="medium">ປາງກາງ</option>
+          <option value="expensive">ແພງ</option>
+          <option value="10000">10000 ₭</option>
+          <option value="15000">15000 ₭</option>
+          <option value="20000">20000 ₭</option>
+        </datalist>
+
+        <datalist id="category_options">
+          <option value="Main">ຫຼັກ</option>
+          <option value="Starter">ລົດເລີ່ມ</option>
+          <option value="Staple">ສິນຄ້າພື້ນຐນທີ່</option>
+          <option value="Soup">ແກງ</option>
+          <option value="Snack">ຂອງກິນແລະດື່ມ</option>
+          <option value="Condiment">ສິນຄ້າປິ່ນ</option>
+          <option value="Stew">ເຂົ້າປິ່ນ</option>
+        </datalist>
+
+        <datalist id="styles_options">
+          <option value="spicy">ປາກລົດ</option>
+          <option value="vegan">ບັນດາດບັນດາດ</option>
+          <option value="grilled">ອົບ</option>
+          <option value="salad">ສະລາດ</option>
+          <option value="fried">ຟຣາຍ</option>
+          <option value="crispy">ຄຣິສະພີ</option>
+          <option value="gluten-free">ບໍ່ມີກລູເຕນ</option>
+          <option value="contains-fish"></option>
+        </datalist>
+
+        <div class="row">
+          <label>Top N recommendations
+            <input id="topn" type="number" min="1" placeholder="e.g. 3" />
+          </label>
+
+          <div class="actions">
+            <button id="apply" type="button">Apply</button>
+            <button id="reset" type="button" class="secondary">Reset</button>
+            <button id="export" type="button" class="secondary">Export JSON</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <section class="results" id="results">
+      <h2>ຈາກເງື່ອນໄຂຂ້າງເທິງ ແນະນຳເມນູອາຫານດັ່ງລຸ່ມນີ່:</h2>
+      <div id="list" class="card-grid"></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>Data: sample_menu.json — translations are placeholders; validate with native speakers before production.</small>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

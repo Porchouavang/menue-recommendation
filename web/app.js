@@ -58,7 +58,6 @@ function openEditModal(item){
       <label>Image URL<input id="fld_image" type="text" value="${item.image||''}" /></label>
     </div>
     <div class="form-actions">
-      <button id="saveEdit" class="btn">Save</button>
       <button id="cancelEdit" class="btn secondary">Cancel</button>
     </div>
   `;
@@ -325,8 +324,8 @@ function renderCard(item, lang, explanation){
   const actions = document.createElement('div');
   actions.className = 'img-actions';
   actions.innerHTML = `
-    <button class="tiny" data-action="set">Set Image URL</button>
-    <button class="tiny" data-action="reset">Reset</button>
+    <button class="tiny" data-action="set"></button>
+    <button class="tiny" data-action="reset"></button>
   `;
   el.appendChild(actions);
 

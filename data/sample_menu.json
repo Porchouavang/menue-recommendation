@@ -59,7 +59,7 @@
     },
     "ingredients": ["minced pork", "fish sauce", "lime", "toasted rice powder", "herbs"],
     "allergens": ["fish"],
-    "price": 20000,
+    "price": 10000,
     "currency": "LAK",
   "image": "https://avocadopesto.com/wp-content/uploads/2013/04/laap-4.jpg",
     "tags": ["spicy", "contains-fish"],
@@ -83,7 +83,7 @@
     "description": {"en": "Whole fish grilled over charcoal, served with fresh herbs and lime.", "lo": "ປາທົ່ວແກ້ວປຸ່ງກະທົ່ວ ມີສົດແລະນ້ໍາມີວ", "hm": "[Hmong description placeholder]"},
     "ingredients": ["fish", "herbs", "lime"],
     "allergens": ["fish"],
-    "price": 35000,
+    "price": 50000,
     "currency": "LAK",
   "image": "https://www.eatingthaifood.com/wp-content/uploads/2014/01/thai-grilled-fish-recipe-feature.jpg",
     "tags": ["grilled", "gluten-free"],
@@ -116,7 +116,7 @@
   },
   "ingredients": ["green papaya", "lime", "chilies", "peanuts"],
   "allergens": ["peanuts"],
-  "price": 18000,
+  "price": 20000,
   "currency": "LAK",
   "image": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/papaya-salad-new-sq.jpg",
   "tags": ["spicy", "salad"],
@@ -154,7 +154,7 @@
   },
   "ingredients": ["dried chiles", "fish sauce", "palm sugar", "garlic"],
   "allergens": ["fish"],
-  "price": 8000,
+  "price": 5000,
   "currency": "LAK",
   "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jeow_Bong_-_Laotian_chili_dip.jpg",
   "tags": ["condiment", "spicy"],
@@ -168,215 +168,413 @@
   "availability": "All day",
   "preparation_time_minutes": 15
 },
+   {
+  "id": "muu_haeng",
+  "name": {
+    "en": "Muu Haeng (Sun-Dried Pork)",
+    "lo": "ໝູແຫ້ງ",
+    "hm": "nqaij npua qhuav"
+  },
+  "transliteration": {
+    "lo_to_latn": "muu haeng",
+    "hm_to_latn": "nqaij npua qhuav"
+  },
+  "pronunciation": {
+    "lo": "mùu hɛ̌ɛng",
+    "hm": "nqaij npua qhuav"
+  },
+  "category": "Snack",
+  "description": {
+    "en": "Thinly sliced, marinated pork that's sun-dried then often fried or served as a salty-sweet snack.",
+    "lo": "ໝູຫັ່ນບາງ ປຸງລົດແລ້ວນຳໄປຕາກແດດ ກ່ອນນຳໄປທອດ ຫຼື ກິນເປັນຂອງກິນ",
+    "hm": "nqaij npua txiav nyias, marinated thiab ziab hnub, ces kib lossis noj ua khoom txom ncauj"
+  },
+  "ingredients": ["pork", "soy", "garlic"],
+  "allergens": [],
+  "price": 20000,
+  "currency": "LAK",
+  "image": "https://hannaone.com/wp-content/uploads/2023/03/the-fork-is-dipping-into-deep-fried-sun-dried-pork-in-white-dish-with-kaffir-lime.jpg",
+  "tags": ["snack", "savory"],
+  "cultural_notes": {
+    "en": "A preserved meat commonly eaten as a snack or side dish.",
+    "lo": "ເປັນອາຫານຖະຫຼອດທີ່ນິຍົມ ກິນເປັນຂອງກິນຫຼືອາຫານຂ້າງ",
+    "hm": "yog zaub mov khaws cia uas neeg feem ntau noj ua khoom txom ncauj lossis nrog mov"
+  },
+  "spice_level": 1,
+  "recommended_pairings": ["Jaew Bong", "Sticky Rice"],
+  "availability": "All day",
+  "preparation_time_minutes": 30
+},
     {
-      "id": "muu_haeng",
-      "name": {"en": "Muu Haeng (Sun-Dried Pork)", "lo": "Muu Haeng (placeholder)", "hm": "Muu Haeng (placeholder)"},
-      "transliteration": {"lo_to_latn": "muu haeng", "hm_to_latn": "muu haeng"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Snack",
-      "description": {"en": "Thinly sliced, marinated pork that's sun-dried then often fried or served as a salty-sweet snack."},
-      "ingredients": ["pork", "soy", "garlic"],
-      "allergens": [],
-      "price": 12000,
-      "currency": "LAK",
-      "image": "https://hannaone.com/wp-content/uploads/2023/03/the-fork-is-dipping-into-deep-fried-sun-dried-pork-in-white-dish-with-kaffir-lime.jpg",
-      "tags": ["snack", "savory"],
-      "cultural_notes": {"en": "A preserved meat commonly eaten as a snack or side dish."},
-      "spice_level": 1,
-      "recommended_pairings": ["Jaew Bong", "Sticky Rice"],
-      "availability": "All day",
-      "preparation_time_minutes": 30
-    },
+  "id": "siin_haeng",
+  "name": {
+    "en": "Siin Haeng (Sun-Dried Beef)",
+    "lo": "ຊີ້ນແຫ້ງ",
+    "hm": "nqaij nyuj qhuav"
+  },
+  "transliteration": {
+    "lo_to_latn": "siin haeng",
+    "hm_to_latn": "nqaij nyuj qhuav"
+  },
+  "pronunciation": {
+    "lo": "sǐin hɛ̌ɛng",
+    "hm": "nqaij nyuj qhuav"
+  },
+  "category": "Snack",
+  "description": {
+    "en": "Chewy, thinly sliced dried beef seasoned with savory marinades; often served with dipping sauces.",
+    "lo": "ຊີ້ນງົວຫັ່ນບາງ ຕາກແຫ້ງ ປຸງລົດເຄັ່ມ ກິນກັບນ້ຳຈິ້ມ",
+    "hm": "nqaij nyuj txiav nyias, ziab qhuav thiab season nrog qab ntsev, feem ntau noj nrog kua ntsw"
+  },
+  "ingredients": ["beef", "soy", "garlic"],
+  "allergens": [],
+  "price": 20000,
+  "currency": "LAK",
+  "image": "https://wfg32p.s3.amazonaws.com/media/dishes/siin_haeng_3694.jpg",
+  "tags": ["snack", "savory"],
+  "cultural_notes": {
+    "en": "Prepared similarly to jerky and commonly enjoyed at markets.",
+    "lo": "ເປັນອາຫານຖະຫຼອດຄ້າຍ jerky ນິຍົມຂາຍໃນຕະຫຼາດ",
+    "hm": "yog zaub mov zoo li jerky uas feem ntau pom muag tom khw"
+  },
+  "spice_level": 1,
+  "recommended_pairings": ["Sticky Rice", "Jaew Bong"],
+  "availability": "All day",
+  "preparation_time_minutes": 30
+},
     {
-      "id": "siin_haeng",
-      "name": {"en": "Siin Haeng (Sun-Dried Beef)", "lo": "Siin Haeng (placeholder)", "hm": "Siin Haeng (placeholder)"},
-      "transliteration": {"lo_to_latn": "siin haeng", "hm_to_latn": "siin haeng"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Snack",
-      "description": {"en": "Chewy, thinly sliced dried beef seasoned with savory marinades; often served with dipping sauces."},
-      "ingredients": ["beef", "soy", "garlic"],
-      "allergens": [],
-      "price": 13000,
-      "currency": "LAK",
-      "image": "https://wfg32p.s3.amazonaws.com/media/dishes/siin_haeng_3694.jpg",
-      "tags": ["snack", "savory"],
-      "cultural_notes": {"en": "Prepared similarly to jerky and commonly enjoyed at markets."},
-      "spice_level": 1,
-      "recommended_pairings": ["Sticky Rice", "Jaew Bong"],
-      "availability": "All day",
-      "preparation_time_minutes": 30
-    },
+  "id": "sai_oua",
+  "name": {
+    "en": "Sai Oua (Herbed Pork Sausage)",
+    "lo": "ໄສ້ອົ່ວ",
+    "hm": "tshis nqaij npua nrog tshuaj ntsuab"
+  },
+  "transliteration": {
+    "lo_to_latn": "sai oua",
+    "hm_to_latn": "tshis nqaij npua nrog tshuaj ntsuab"
+  },
+  "pronunciation": {
+    "lo": "sâi ùa",
+    "hm": "tshis nqaij npua nrog tshuaj ntsuab"
+  },
+  "category": "Snack",
+  "description": {
+    "en": "A fragrant pork sausage seasoned with lemongrass, galangal, and herbs; grilled or fried.",
+    "lo": "ໄສ້ກອກຫມູທີ່ມີກິ່ນຫອມ ປຸງດ້ວຍຕະໄຄ້ ແລະ ສະຫມຸນໄພ ນຳໄປຢ່າງຫຼືປີ້ງ",
+    "hm": "ib hom hnyuv ntxwm nqaij npua uas muaj tshuaj ntsuab xws li lemongrass thiab galangal, ci los sis kib"
+  },
+  "ingredients": ["pork", "lemongrass", "galangal"],
+  "allergens": [],
+  "price": 10000,
+  "currency": "LAK",
+  "image": "https://craftstocrumbs.com/wp-content/uploads/2017/10/Sai-Oua-CTC-768x518.jpg",
+  "tags": ["grilled", "sausage"],
+  "cultural_notes": {
+    "en": "A popular market and street-food item with aromatic herbs.",
+    "lo": "ເປັນອາຫານຍອດນິຍົມໃນຕະຫຼາດ ມີກິ່ນຫອມຈາກສະຫມຸນໄພ",
+    "hm": "yog zaub mov nrov hauv khw thiab kev noj mov uas muaj ntxhiab tsw los ntawm tshuaj ntsuab"
+  },
+  "spice_level": 2,
+  "recommended_pairings": ["Sticky Rice", "Fresh Vegetables"],
+  "availability": "All day",
+  "preparation_time_minutes": 20
+},
     {
-      "id": "sai_oua",
-      "name": {"en": "Sai Oua (Herbed Pork Sausage)", "lo": "Sai Oua (placeholder)", "hm": "Sai Oua (placeholder)"},
-      "transliteration": {"lo_to_latn": "sai oua", "hm_to_latn": "sai oua"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Snack",
-      "description": {"en": "A fragrant pork sausage seasoned with lemongrass, galangal, and herbs; grilled or fried."},
-      "ingredients": ["pork", "lemongrass", "galangal"],
-      "allergens": [],
-      "price": 15000,
-      "currency": "LAK",
-      "image": "https://craftstocrumbs.com/wp-content/uploads/2017/10/Sai-Oua-CTC-768x518.jpg",
-      "tags": ["grilled", "sausage"],
-      "cultural_notes": {"en": "A popular market and street-food item with aromatic herbs."},
-      "spice_level": 2,
-      "recommended_pairings": ["Sticky Rice", "Fresh Vegetables"],
-      "availability": "All day",
-      "preparation_time_minutes": 20
-    },
+  "id": "tam_muk_muang",
+  "name": {
+    "en": "Tam Muk Muang (Green-Mango Salad)",
+    "lo": "ຕຳໝາກມ່ວງ",
+    "hm": "zaub txiv nkhaus taw nyoos"
+  },
+  "transliteration": {
+    "lo_to_latn": "tam mak muang",
+    "hm_to_latn": "zaub txiv nkhaus taw nyoos"
+  },
+  "pronunciation": {
+    "lo": "tam māk muǎng",
+    "hm": "zaub txiv nkhaus taw nyoos"
+  },
+  "category": "Starter",
+  "description": {
+    "en": "A tart, crunchy salad of shredded green mango tossed with dressing, nuts, and sometimes shrimp.",
+    "lo": "ສະຫຼັດໝາກມ່ວງດິບຂູດ ປຸງລົດດ້ວຍນ້ຳຍຳ ເຄື່ອງເຄັມ ແລະ ຖົ່ວ ບາງຄັ້ງໃສ່ກຸ້ງ",
+    "hm": "ib hom zaub nyias siv txiv nkhaus taw nyoos, sib xyaw nrog kua ntsw, txiv ntoo thiab qee zaum muaj cws"
+  },
+  "ingredients": ["green mango", "lime", "nuts", "shrimp"],
+  "allergens": ["shellfish", "nuts"],
+  "price": 20000,
+  "currency": "LAK",
+  "image": "https://www.seriouseats.com/thmb/YnKbHj-BqC4HR8bQpUjS_z73_H4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__05__20180503-Guide-to-Lao-Food-Tam-Muk-Muang-Jai-Williams-1500x1125-7b1e169e5ec34564b304033e323d6a9d.jpg",
+  "tags": ["salad", "refreshing", "spicy"],
+  "cultural_notes": {
+    "en": "A refreshing street-food salad, brighter than green papaya versions.",
+    "lo": "ເປັນສະຫຼັດຖະຫຼອດທີ່ສົດຊື່ນ ແລະ ລົດຊາດຊັດກວ່າຕຳໝາກຫຸ່ງ",
+    "hm": "yog zaub mov tshiab thiab qab ntxiag, muaj saj ci dua papaya salad"
+  },
+  "spice_level": 3,
+  "recommended_pairings": ["Sticky Rice", "Grilled Fish"],
+  "availability": "All day",
+  "preparation_time_minutes": 10
+},
     {
-      "id": "tam_muk_muang",
-      "name": {"en": "Tam Muk Muang (Green-Mango Salad)", "lo": "Tam Muk Muang (placeholder)", "hm": "Tam Muk Muang (placeholder)"},
-      "transliteration": {"lo_to_latn": "tam muk muang", "hm_to_latn": "tam muk muang"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Starter",
-      "description": {"en": "A tart, crunchy salad of shredded green mango tossed with dressing, nuts, and sometimes shrimp."},
-      "ingredients": ["green mango", "lime", "nuts", "shrimp"],
-      "allergens": ["shellfish", "nuts"],
-      "price": 16000,
-      "currency": "LAK",
-      "image": "https://www.seriouseats.com/thmb/YnKbHj-BqC4HR8bQpUjS_z73_H4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__05__20180503-Guide-to-Lao-Food-Tam-Muk-Muang-Jai-Williams-1500x1125-7b1e169e5ec34564b304033e323d6a9d.jpg",
-      "tags": ["salad", "refreshing", "spicy"],
-      "cultural_notes": {"en": "A refreshing street-food salad, brighter than green papaya versions."},
-      "spice_level": 3,
-      "recommended_pairings": ["Sticky Rice", "Grilled Fish"],
-      "availability": "All day",
-      "preparation_time_minutes": 10
-    },
+  "id": "naem_khao",
+  "name": {
+    "en": "Naem Khao (Crispy Coconut Rice)",
+    "lo": "ແນມເຂົ້າ",
+    "hm": "mov txhuv kib nrog txiv maj phaub"
+  },
+  "transliteration": {
+    "lo_to_latn": "naem khao",
+    "hm_to_latn": "mov txhuv kib nrog txiv maj phaub"
+  },
+  "pronunciation": {
+    "lo": "nɛ̌ɛm kʰâo",
+    "hm": "mov txhuv kib nrog txiv maj phaub"
+  },
+  "category": "Main",
+  "description": {
+    "en": "Crispy fried rice and coconut mixed with seasoned meat and herbs for a crunchy, savory bite.",
+    "lo": "ເຂົ້າຂົ້ວກັບກະທິ ແລະ ໝູ ປຸງລົດ ປະສົມສະຫມຸນໄພ ມີຄວາມກອບ ແລະ ອົບອຸ່ນ",
+    "hm": "mov txhuv kib nrog txiv maj phaub thiab nqaij, xyaw tshuaj ntsuab ua rau qab thiab muaj texture crunch"
+  },
+  "ingredients": ["rice", "coconut", "pork", "herbs"],
+  "allergens": [],
+  "price": 10000,
+  "currency": "LAK",
+  "image": "https://hungryinthailand.com/wp-content/uploads/2024/01/crispy-rice-salad-nam-khao-tod-768x1024.webp",
+  "tags": ["crispy", "savory"],
+  "cultural_notes": {
+    "en": "A specialty of Vientiane featuring contrasting textures.",
+    "lo": "ເປັນອາຫານພິເສດຂອງວຽງຈັນ ມີຄວາມກອບ ແລະ ນຸ່ມປະສົມກັນ",
+    "hm": "yog ib hom zaub mov tshwj xeeb uas muaj ntau yam textures sib xyaw"
+  },
+  "spice_level": 2,
+  "recommended_pairings": ["Fresh Herbs", "Sticky Rice"],
+  "availability": "Lunch/Dinner",
+  "preparation_time_minutes": 20
+},
     {
-      "id": "naem_khao",
-      "name": {"en": "Naem Khao (Crispy Coconut Rice)", "lo": "Naem Khao (placeholder)", "hm": "Naem Khao (placeholder)"},
-      "transliteration": {"lo_to_latn": "naem khao", "hm_to_latn": "naem khao"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Main",
-      "description": {"en": "Crispy fried rice and coconut mixed with seasoned meat and herbs for a crunchy, savory bite."},
-      "ingredients": ["rice", "coconut", "pork", "herbs"],
-      "allergens": [],
-      "price": 22000,
-      "currency": "LAK",
-      "image": "https://hungryinthailand.com/wp-content/uploads/2024/01/crispy-rice-salad-nam-khao-tod-768x1024.webp",
-      "tags": ["crispy", "savory"],
-      "cultural_notes": {"en": "A specialty of Vientiane featuring contrasting textures."},
-      "spice_level": 2,
-      "recommended_pairings": ["Fresh Herbs", "Sticky Rice"],
-      "availability": "Lunch/Dinner",
-      "preparation_time_minutes": 20
-    },
+  "id": "laab_ped",
+  "name": {
+    "en": "Laab Ped (Minced Duck Salad)",
+    "lo": "ລາບເປັດ",
+    "hm": "zaub mov nqaij os xyaw tshuaj ntsuab"
+  },
+  "transliteration": {
+    "lo_to_latn": "laap pet",
+    "hm_to_latn": "zaub mov nqaij os xyaw tshuaj ntsuab"
+  },
+  "pronunciation": {
+    "lo": "làːp pèt",
+    "hm": "zaub mov nqaij os xyaw tshuaj ntsuab"
+  },
+  "category": "Main",
+  "description": {
+    "en": "A zesty minced duck salad with herbs, lime, and toasted rice powder; a Lao specialty.",
+    "lo": "ລາບເປັດ ເປັນອາຫານຍຳທີ່ໃຊ້ເປັດສັບ ປຸງດ້ວຍນ້ຳມະນາວ ຂ້າວຄົວ ແລະ ສະຫມຸນໄພ",
+    "hm": "ib hom zaub nyias siv nqaij os minced xyaw kua txiv qaub, hmoov mov ci thiab tshuaj ntsuab"
+  },
+  "ingredients": ["duck", "lime", "toasted rice powder", "herbs"],
+  "allergens": [],
+  "price": 10000,
+  "currency": "LAK",
+  "image": "https://www.eatingthaifood.com/wp-content/uploads/2014/02/thai-larb-recipe.jpg",
+  "tags": ["salad", "spicy"],
+  "cultural_notes": {
+    "en": "A celebratory dish served at gatherings and festivals.",
+    "lo": "ເປັນອາຫານສຳລັບງານລ້ຽງ ແລະ ງານບຸນຕ່າງໆ",
+    "hm": "yog zaub mov tshwj xeeb uas noj thaum muaj kev sib sau thiab kev lom zem"
+  },
+  "spice_level": 4,
+  "recommended_pairings": ["Sticky Rice", "Fresh Vegetables"],
+  "availability": "Lunch/Dinner",
+  "preparation_time_minutes": 25
+},
     {
-      "id": "laab_ped",
-      "name": {"en": "Laab Ped (Minced Duck Salad)", "lo": "Laab Ped (placeholder)", "hm": "Laab Ped (placeholder)"},
-      "transliteration": {"lo_to_latn": "laab ped", "hm_to_latn": "laab ped"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Main",
-      "description": {"en": "A zesty minced duck salad with herbs, lime, and toasted rice powder; a Lao specialty."},
-      "ingredients": ["duck", "lime", "toasted rice powder", "herbs"],
-      "allergens": [],
-      "price": 24000,
-      "currency": "LAK",
-      "image": "https://www.eatingthaifood.com/wp-content/uploads/2014/02/thai-larb-recipe.jpg",
-      "tags": ["salad", "spicy"],
-      "cultural_notes": {"en": "A celebratory dish served at gatherings and festivals."},
-      "spice_level": 4,
-      "recommended_pairings": ["Sticky Rice", "Fresh Vegetables"],
-      "availability": "Lunch/Dinner",
-      "preparation_time_minutes": 25
-    },
+  "id": "khao_soi",
+  "name": {
+    "en": "Khao Soi (Rice Noodle Soup)",
+    "lo": "ເຂົ້າຊອຍ",
+    "hm": "kua mov mij"
+  },
+  "transliteration": {
+    "lo_to_latn": "khao soi",
+    "hm_to_latn": "kua mov mij"
+  },
+  "pronunciation": {
+    "lo": "kʰâo sɔ́i",
+    "hm": "kua mov mij"
+  },
+  "category": "Soup",
+  "description": {
+    "en": "Wide rice noodles in a savory broth often topped with herbs and a fermented soybean-tomato sauce.",
+    "lo": "ເຂົ້າຊອຍ ແມ່ນເສັ້ນເຂົ້າກວ້າງໃນນ້ຳຊຸບ ພ້ອມສະຫມຸນໄພ ແລະ ນ້ຳປຸງຖົ່ວເນົ່າ-ໝາກເລັ່ນ",
+    "hm": "kua mov mij dav hauv kua zaub qab ntsev, feem ntau muaj tshuaj ntsuab thiab kua ntsw taum fermented"
+  },
+  "ingredients": ["rice noodles", "broth", "herbs"],
+  "allergens": [],
+  "price": 35000,
+  "currency": "LAK",
+  "image": "https://thegourmandiseschool.com/wp-content/uploads/2025/05/khao-soi-soup-closeup_39035834-500x375.jpg",
+  "tags": ["soup", "noodles"],
+  "cultural_notes": {
+    "en": "A regional noodle soup with varied preparations across northern Laos and Isan.",
+    "lo": "ເປັນກົ່ວເສັ້ນທ້ອງຖິ່ນ ທີ່ມີຮູບແບບແຕກຕ່າງໃນພາກເໜືອຂອງລາວ",
+    "hm": "yog ib hom kua noodles uas muaj ntau hom kev npaj nyob rau sab qaum teb Laos thiab Isan"
+  },
+  "spice_level": 2,
+  "recommended_pairings": ["Fresh Herbs"],
+  "availability": "Lunch/Dinner",
+  "preparation_time_minutes": 30
+},
     {
-      "id": "khao_soi",
-      "name": {"en": "Khao Soi (Rice Noodle Soup)", "lo": "Khao Soi (placeholder)", "hm": "Khao Soi (placeholder)"},
-      "transliteration": {"lo_to_latn": "khao soi", "hm_to_latn": "khao soi"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Soup",
-      "description": {"en": "Wide rice noodles in a savory broth often topped with herbs and a fermented soybean-tomato sauce."},
-      "ingredients": ["rice noodles", "broth", "herbs"],
-      "allergens": [],
-      "price": 21000,
-      "currency": "LAK",
-      "image": "https://thegourmandiseschool.com/wp-content/uploads/2025/05/khao-soi-soup-closeup_39035834-500x375.jpg",
-      "tags": ["soup", "noodles"],
-      "cultural_notes": {"en": "A regional noodle soup with varied preparations across northern Laos and Isan."},
-      "spice_level": 2,
-      "recommended_pairings": ["Fresh Herbs"],
-      "availability": "Lunch/Dinner",
-      "preparation_time_minutes": 30
-    },
+  "id": "gaeng_som",
+  "name": {
+    "en": "Gaeng Som (Sour Soup)",
+    "lo": "ແກງສົ້ມ",
+    "hm": "kua zaub qaub"
+  },
+  "transliteration": {
+    "lo_to_latn": "gaeng som",
+    "hm_to_latn": "kua zaub qaub"
+  },
+  "pronunciation": {
+    "lo": "kɛ̌ːŋ sǒm",
+    "hm": "kua zaub qaub"
+  },
+  "category": "Soup",
+  "description": {
+    "en": "A sour, tamarind-flavored soup often made with chicken or fish and bright herbs.",
+    "lo": "ແກງສົ້ມ ເປັນຊຸບທີ່ມີລົດສົ້ມ ໃຊ້ຫມາກມະຕາດ ມັກເຮັດກັບໄກ່ ຫຼື ປາ ແລະ ສະຫມຸນໄພ",
+    "hm": "ib hom kua zaub qaub siv txiv tamarind, feem ntau ua nrog nqaij qaib lossis ntses thiab tshuaj ntsuab"
+  },
+  "ingredients": ["tamarind", "chicken", "herbs"],
+  "allergens": [],
+  "price": 10000,
+  "currency": "LAK",
+  "image": "https://hot-thai-kitchen.com/wp-content/uploads/2017/10/gaeng-som-sq.jpg",
+  "tags": ["soup", "sour"],
+  "cultural_notes": {
+    "en": "A tangy soup that pairs well with laab and other rich salads.",
+    "lo": "ເປັນແກງທີ່ລົດສົ້ມ ເໝາະກິນຄູ່ກັບລາບ ແລະ ອາຫານຍຳຕ່າງໆ",
+    "hm": "yog kua zaub uas muaj saj qaub zoo noj nrog laab thiab lwm yam zaub nyias"
+  },
+  "spice_level": 2,
+  "recommended_pairings": ["Laab", "Sticky Rice"],
+  "availability": "Lunch/Dinner",
+  "preparation_time_minutes": 40
+},
     {
-      "id": "gaeng_som",
-      "name": {"en": "Gaeng Som (Sour Soup)", "lo": "Gaeng Som (placeholder)", "hm": "Gaeng Som (placeholder)"},
-      "transliteration": {"lo_to_latn": "gaeng som", "hm_to_latn": "gaeng som"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Soup",
-      "description": {"en": "A sour, tamarind-flavored soup often made with chicken or fish and bright herbs."},
-      "ingredients": ["tamarind", "chicken", "herbs"],
-      "allergens": [],
-      "price": 20000,
-      "currency": "LAK",
-      "image": "https://hot-thai-kitchen.com/wp-content/uploads/2017/10/gaeng-som-sq.jpg",
-      "tags": ["soup", "sour"],
-      "cultural_notes": {"en": "A tangy soup that pairs well with laab and other rich salads."},
-      "spice_level": 2,
-      "recommended_pairings": ["Laab", "Sticky Rice"],
-      "availability": "Lunch/Dinner",
-      "preparation_time_minutes": 40
-    },
+  "id": "khao_poon",
+  "name": {
+    "en": "Khao Poon (Fermented Noodle Soup)",
+    "lo": "ເຂົ້າປຸ້ນ",
+    "hm": "kua mov mij qaub"
+  },
+  "transliteration": {
+    "lo_to_latn": "khao poon",
+    "hm_to_latn": "kua mov mij qaub"
+  },
+  "pronunciation": {
+    "lo": "kʰâo pùn",
+    "hm": "kua mov mij qaub"
+  },
+  "category": "Soup",
+  "description": {
+    "en": "A fragrant noodle soup featuring fermented rice vermicelli and rich toppings; regional in style.",
+    "lo": "ເຂົ້າປຸ້ນ ເປັນເສັ້ນຂົ້າໝັກ ໃນນ້ຳຊຸບຫອມ ພ້ອມເຄື່ອງເຄິ່ງຫຼາຍຢ່າງ",
+    "hm": "ib hom kua zaub noodles siv mov ferment thiab muaj ntau yam toppings"
+  },
+  "ingredients": ["fermented noodles", "broth", "herbs"],
+  "allergens": [],
+  "price": 35000,
+  "currency": "LAK",
+  "image": "https://www.seriouseats.com/thmb/q4Itk1aV8hF66jcx7qYGh5ESp0g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__05__20180503-Guide-to-Lao-Food-Khao-Poon-Jai-Williams-1500x1125-9091d36b22034039b43738482d0a2b64.jpg",
+  "tags": ["soup", "noodles"],
+  "cultural_notes": {
+    "en": "Often served with many fresh garnishes on the side for customization.",
+    "lo": "ມັກເສີບຄູ່ກັບຜັກສົດ ແລະ ເຄື່ອງເຄີຍໃຫ້ເລືອກເພີ່ມເຕີມ",
+    "hm": "feem ntau noj nrog zaub tshiab thiab lwm yam toppings rau xaiv ntxiv"
+  },
+  "spice_level": 3,
+  "recommended_pairings": ["Fresh Vegetables"],
+  "availability": "Lunch/Dinner",
+  "preparation_time_minutes": 30
+},
     {
-      "id": "khao_poon",
-      "name": {"en": "Khao Poon (Fermented Noodle Soup)", "lo": "Khao Poon (placeholder)", "hm": "Khao Poon (placeholder)"},
-      "transliteration": {"lo_to_latn": "khao poon", "hm_to_latn": "khao poon"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Soup",
-      "description": {"en": "A fragrant noodle soup featuring fermented rice vermicelli and rich toppings; regional in style."},
-      "ingredients": ["fermented noodles", "broth", "herbs"],
-      "allergens": [],
-      "price": 19000,
-      "currency": "LAK",
-      "image": "https://www.seriouseats.com/thmb/q4Itk1aV8hF66jcx7qYGh5ESp0g=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2018__05__20180503-Guide-to-Lao-Food-Khao-Poon-Jai-Williams-1500x1125-9091d36b22034039b43738482d0a2b64.jpg",
-      "tags": ["soup", "noodles"],
-      "cultural_notes": {"en": "Often served with many fresh garnishes on the side for customization."},
-      "spice_level": 3,
-      "recommended_pairings": ["Fresh Vegetables"],
-      "availability": "Lunch/Dinner",
-      "preparation_time_minutes": 30
-    },
+  "id": "gaeng_naw_mai",
+  "name": {
+    "en": "Gaeng Naw Mai (Bamboo & Yanang Stew)",
+    "lo": "ແກງໜໍ່ໄມ້",
+    "hm": "kua zaub xyoob thiab tshuaj yanang"
+  },
+  "transliteration": {
+    "lo_to_latn": "gaeng nor mai",
+    "hm_to_latn": "kua zaub xyoob thiab tshuaj yanang"
+  },
+  "pronunciation": {
+    "lo": "kɛ̌ːŋ nɔ̀ː mâi",
+    "hm": "kua zaub xyoob thiab tshuaj yanang"
+  },
+  "category": "Stew",
+  "description": {
+    "en": "A herb-forward stew made with bamboo shoots and yanang leaf extract for a deep green broth.",
+    "lo": "ແກງໜໍ່ໄມ້ ເຮັດຈາກໜໍ່ໄມ້ ແລະ ນ້ຳສະກັດໃບຍານາງ ໃຫ້ນ້ຳແກງສີຂຽວເຂັ້ມ",
+    "hm": "ib hom kua zaub siv xyoob thiab kua los ntawm nplooj yanang ua rau kua zaub ntsuab tob"
+  },
+  "ingredients": ["bamboo shoots", "yanang leaf", "herbs"],
+  "allergens": [],
+  "price": 10000,
+  "currency": "LAK",
+  "image": "https://www.simplysuwanee.com/wp-content/uploads/2026/02/Gaeng-nor-mai-thai-bamboo-soup-12-260x195.jpg",
+  "tags": ["stew", "herbal"],
+  "cultural_notes": {
+    "en": "A regional specialty that showcases yanang’s unique flavor.",
+    "lo": "ເປັນອາຫານພື້ນເມືອງ ທີ່ສະແດງລົດຊາດພິເສດຂອງໃບຍານາງ",
+    "hm": "yog ib yam zaub mov hauv cheeb tsam uas qhia txog saj tshwj xeeb ntawm yanang"
+  },
+  "spice_level": 2,
+  "recommended_pairings": ["Sticky Rice"],
+  "availability": "Lunch/Dinner",
+  "preparation_time_minutes": 45
+},
     {
-      "id": "gaeng_naw_mai",
-      "name": {"en": "Gaeng Naw Mai (Bamboo & Yanang Stew)", "lo": "Gaeng Naw Mai (placeholder)", "hm": "Gaeng Naw Mai (placeholder)"},
-      "transliteration": {"lo_to_latn": "gaeng naw mai", "hm_to_latn": "gaeng naw mai"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Stew",
-      "description": {"en": "A herb-forward stew made with bamboo shoots and yanang leaf extract for a deep green broth."},
-      "ingredients": ["bamboo shoots", "yanang leaf", "herbs"],
-      "allergens": [],
-      "price": 21000,
-      "currency": "LAK",
-      "image": "https://www.simplysuwanee.com/wp-content/uploads/2026/02/Gaeng-nor-mai-thai-bamboo-soup-12-260x195.jpg",
-      "tags": ["stew", "herbal"],
-      "cultural_notes": {"en": "A regional specialty that showcases yanang’s unique flavor."},
-      "spice_level": 2,
-      "recommended_pairings": ["Sticky Rice"],
-      "availability": "Lunch/Dinner",
-      "preparation_time_minutes": 45
-    },
-    {
-      "id": "piing_hua_jai_kai",
-      "name": {"en": "Piing Hua Jai Kai (Grilled Chicken Hearts)", "lo": "Piing Hua Jai Kai (placeholder)", "hm": "Piing Hua Jai Kai (placeholder)"},
-      "transliteration": {"lo_to_latn": "piing hua jai kai", "hm_to_latn": "piing hua jai kai"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Snack",
-      "description": {"en": "Skewered, marinated chicken hearts grilled until slightly charred and served hot."},
-      "ingredients": ["chicken hearts", "marinade"],
-      "allergens": [],
-      "price": 12000,
-      "currency": "LAK",
-      "image": "https://i0.wp.com/www.lubzonline.com/wp-content/uploads/2020/08/093C4FAE-127E-4780-9CD2-11BCF0919205-scaled.jpeg",
-      "tags": ["grilled", "street-food"],
-      "cultural_notes": {"en": "A common night-market snack with bold, savory flavors."},
-      "spice_level": 1,
-      "recommended_pairings": ["Sticky Rice"],
-      "availability": "All day",
-      "preparation_time_minutes": 15
-    },
+  "id": "piing_hua_jai_kai",
+  "name": {
+    "en": "Piing Hua Jai Kai (Grilled Chicken Hearts)",
+    "lo": "ປີ້ງຫົວໃຈໄກ່",
+    "hm": "ci nqaij qaib lub siab ci"
+  },
+  "transliteration": {
+    "lo_to_latn": "piing hua jai kai",
+    "hm_to_latn": "ci nqaij qaib lub siab ci"
+  },
+  "pronunciation": {
+    "lo": "pìːŋ hǔa tɕaːj kʰàj",
+    "hm": "ci nqaij qaib lub siab ci"
+  },
+  "category": "Snack",
+  "description": {
+    "en": "Skewered, marinated chicken hearts grilled until slightly charred and served hot.",
+    "lo": "ຫົວໃຈໄກ່ເສຽບໄມ້ ປຸງດອງ ແລະ ປີ້ງໃຫ້ສຸກ ມີກິ່ນຫອມ",
+    "hm": "nqaij qaib lub siab muab tso rau ntawm pas, marinated thiab ci kom muaj ntxhiab tsw"
+  },
+  "ingredients": ["chicken hearts", "marinade"],
+  "allergens": [],
+  "price": 10000,
+  "currency": "LAK",
+  "image": "https://i0.wp.com/www.lubzonline.com/wp-content/uploads/2020/08/093C4FAE-127E-4780-9CD2-11BCF0919205-scaled.jpeg",
+  "tags": ["grilled", "street-food"],
+  "cultural_notes": {
+    "en": "A common night-market snack with bold, savory flavors.",
+    "lo": "ເປັນອາຫານຂອງຕະຫຼາດກາງຄືນ ທີ່ມີລົດຊາດເຂັ້ມຂົ້ນ",
+    "hm": "yog khoom noj nrov hauv khw hmo ntuj uas muaj saj muaj zog thiab qab heev"
+  },
+  "spice_level": 1,
+  "recommended_pairings": ["Sticky Rice"],
+  "availability": "All day",
+  "preparation_time_minutes": 15
+},
     {
   "id": "muu_som",
   "name": {
@@ -400,7 +598,7 @@
   },
   "ingredients": ["pork", "fermented rice"],
   "allergens": [],
-  "price": 18000,
+  "price": 10000,
   "currency": "LAK",
   "image": "https://cookingwithlane.com/wp-content/uploads/2020/05/laos-sour-pork-sausage-som-moo.jpg",
   "tags": ["fermented", "savory"],
@@ -437,7 +635,7 @@
   },
   "ingredients": ["catfish", "rice flour", "herbs"],
   "allergens": ["fish"],
-  "price": 23000,
+  "price": 20000,
   "currency": "LAK",
   "image": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/papaya-salad-new-sq.jpg",
   "tags": ["fried", "crispy"],

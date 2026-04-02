@@ -16,11 +16,17 @@ Returns JSON: {"image": "https://..."} or HTTP 400/500 with error message.
 Security notes: API keys will be sent from this server to Google. Do not expose keys in client-side code.
 """
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory
+import os
+import requests
 from flask_cors import CORS
 import os
 import requests
 
+# Serve the static web UI from the `web/` directory at the project root.
+# This allows the root URL (/) to return `web/index.html` and static assets
+# (CSS/JS/images) to be fetched by the browser. Hosting platforms that route
+# to the WSGI app will now show the client UI instead of a 404 at '/'.
 app = Flask(__name__)
 CORS(app)
 
@@ -60,6 +66,23 @@ def image_search():
 def health():
     # Simple health-check for hosting platforms
     return jsonify({'status':'ok'}), 200
+
+
+# Static file routes for the client-side web UI
+@app.route('/')
+def index():
+    # Serve the main HTML page
+    return send_from_directory('web', 'index.html')
+
+
+@app.route('/<path:filename>')
+def web_static(filename):
+    # Try to serve any static asset from the `web/` folder (css, js, images).
+    # If the file is not found, fall back to index.html for SPA-style routing.
+    try:
+        return send_from_directory('web', filename)
+    except Exception:
+        return send_from_directory('web', 'index.html')
 
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))

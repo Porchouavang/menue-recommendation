@@ -84,6 +84,13 @@ def web_static(filename):
     except Exception:
         return send_from_directory('web', 'index.html')
 
+
+@app.route('/data/<path:filename>')
+def data_files(filename):
+    # Serve JSON and other data files from the repository's `data/` directory.
+    # This allows client-side code (app.js) to fetch '/data/sample_menu.json'.
+    return send_from_directory('data', filename)
+
 if __name__ == '__main__':
     port = int(os.environ.get('PORT', 5000))
     print(f'Starting image proxy on http://0.0.0.0:{port} (requires GOOGLE_API_KEY & GOOGLE_CX)')

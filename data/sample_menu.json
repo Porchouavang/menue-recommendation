@@ -94,44 +94,80 @@
     "preparation_time_minutes": 25
   },
   {
-    "id": "papaya_salad",
-    "name": {"en": "Papaya Salad (Tam Mak Houng)", "lo": "ສຳລັບປົກໄມ້", "hm": "Tam mak (placeholder)"},
-    "transliteration": {"lo_to_latn": "tam mak houng", "hm_to_latn": "tam mak"},
-    "pronunciation": {"lo": "tam mâk hûang", "hm": "[hmong pronunciation placeholder]"},
-    "category": "Starter",
-    "description": {"en": "Shredded green papaya tossed with lime, fish sauce, chilies and peanuts.", "lo": "ປັ້ນມັນປີ້ຖືກທຳດ້ວຍນ້ໍາມີວ ແລະ ພິນເບຍ", "hm": "[Hmong description placeholder]"},
-    "ingredients": ["green papaya", "lime", "chilies", "peanuts"],
-    "allergens": ["peanuts"],
-    "price": 18000,
-    "currency": "LAK",
+  "id": "papaya_salad",
+  "name": {
+    "en": "Papaya Salad (Tam Mak Houng)",
+    "lo": "ຕຳໝາກຫຸ່ງ",
+    "hm": "xeeb txiv papaya"
+  },
+  "transliteration": {
+    "lo_to_latn": "tam mak houng",
+    "hm_to_latn": "xeeb papaya"
+  },
+  "pronunciation": {
+    "lo": "tam mâk hûang",
+    "hm": "xeeb txiv papaya"
+  },
+  "category": "Starter",
+  "description": {
+    "en": "Shredded green papaya tossed with lime, fish sauce, chilies and peanuts.",
+    "lo": "ຕຳໝາກຫຸ່ງດິບ ປຸງດ້ວຍນ້ຳປາ ນ້ຳມະນາວ ໝາກເຜັດ ແລະ ຖົ່ວ",
+    "hm": "papaya nyoos txiav nyias, tov nrog kua qaub, ntses ntses, kua txob thiab taum"
+  },
+  "ingredients": ["green papaya", "lime", "chilies", "peanuts"],
+  "allergens": ["peanuts"],
+  "price": 18000,
+  "currency": "LAK",
   "image": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/papaya-salad-new-sq.jpg",
-    "tags": ["spicy", "salad"],
-    "cultural_notes": {"en": "A popular street food, refreshing on hot days.", "lo": "ມັກກິນໃນມື້ອຸ່ນ ດີສໍາລັບວັນຮ້ອນ", "hm": "[Hmong cultural note placeholder]"},
-    "spice_level": 4,
-    "recommended_pairings": ["Sticky Rice", "Grilled Chicken"],
-    "availability": "All day",
-    "preparation_time_minutes": 10
-  }
+  "tags": ["spicy", "salad"],
+  "cultural_notes": {
+    "en": "A popular street food, refreshing on hot days.",
+    "lo": "ເປັນອາຫານຂ້າງທາງທີ່ນິຍົມ ແລະ ກິນແລ້ວຮູ້ສຶກສົດຊື່ນໃນມື້ຮ້ອນ",
+    "hm": "yog zaub mov nrov ntawm kev muag tom kev, noj thaum hnub kub ces ua kom txias siab"
+  },
+  "spice_level": 4,
+  "recommended_pairings": ["Sticky Rice", "Grilled Chicken"],
+  "availability": "All day",
+  "preparation_time_minutes": 10
+}
     ,
     {
-      "id": "jaew_bong",
-      "name": {"en": "Jaew Bong (Hot Pepper Dip)", "lo": "ຈ້າວບອງ (placeholder)", "hm": "Jaew Bong (placeholder)"},
-      "transliteration": {"lo_to_latn": "jaew bong", "hm_to_latn": "jaew bong"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Condiment",
-      "description": {"en": "A rich, slightly sweet and savory chili dip made from dried chiles, fish sauce, and palm sugar; served with fresh vegetables."},
-      "ingredients": ["dried chiles", "fish sauce", "palm sugar", "garlic"],
-      "allergens": ["fish"],
-      "price": 8000,
-      "currency": "LAK",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jeow_Bong_-_Laotian_chili_dip.jpg",
-      "tags": ["condiment", "spicy"],
-      "cultural_notes": {"en": "Commonly served at the start of a meal alongside raw vegetables."},
-      "spice_level": 3,
-      "recommended_pairings": ["Sticky Rice", "Grilled Meats"],
-      "availability": "All day",
-      "preparation_time_minutes": 15
-    },
+  "id": "jaew_bong",
+  "name": {
+    "en": "Jaew Bong (Hot Pepper Dip)",
+    "lo": "ແຈ່ວບອງ",
+    "hm": "kua txob jeow bong"
+  },
+  "transliteration": {
+    "lo_to_latn": "jaew bong",
+    "hm_to_latn": "kua txob jeow bong"
+  },
+  "pronunciation": {
+    "lo": "jèew bɔ̌ɔng",
+    "hm": "kua txob jeow bong"
+  },
+  "category": "Condiment",
+  "description": {
+    "en": "A rich, slightly sweet and savory chili dip made from dried chiles, fish sauce, and palm sugar; served with fresh vegetables.",
+    "lo": "ນ້ຳຈິ້ມເຜັດລົດເຂັ້ມ ມີຄວາມຫວານນ້ອຍໆ ເຮັດຈາກໝາກເຜັດແຫ້ງ ນ້ຳປາ ແລະ ນ້ຳຕານອ້ອຍ ນິຍົມກິນກັບຜັກສົດ",
+    "hm": "kua txob qab ntsim me ntsis qab zib, ua los ntawm kua txob qhuav, ntses ntses thiab qab zib, feem ntau noj nrog zaub tshiab"
+  },
+  "ingredients": ["dried chiles", "fish sauce", "palm sugar", "garlic"],
+  "allergens": ["fish"],
+  "price": 8000,
+  "currency": "LAK",
+  "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jeow_Bong_-_Laotian_chili_dip.jpg",
+  "tags": ["condiment", "spicy"],
+  "cultural_notes": {
+    "en": "Commonly served at the start of a meal alongside raw vegetables.",
+    "lo": "ມັກເສີບໃນຕອນເລີ່ມມື້ອາຫານ ກິນຄູ່ກັບຜັກສົດ",
+    "hm": "feem ntau muab rau thaum pib noj mov, noj nrog zaub tshiab"
+  },
+  "spice_level": 3,
+  "recommended_pairings": ["Sticky Rice", "Grilled Meats"],
+  "availability": "All day",
+  "preparation_time_minutes": 15
+},
     {
       "id": "muu_haeng",
       "name": {"en": "Muu Haeng (Sun-Dried Pork)", "lo": "Muu Haeng (placeholder)", "hm": "Muu Haeng (placeholder)"},
@@ -342,41 +378,77 @@
       "preparation_time_minutes": 15
     },
     {
-      "id": "muu_som",
-      "name": {"en": "Muu Som (Fermented Sour Pork)", "lo": "Muu Som (placeholder)", "hm": "Muu Som (placeholder)"},
-      "transliteration": {"lo_to_latn": "muu som", "hm_to_latn": "muu som"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Main",
-      "description": {"en": "Pork fermented with rice then roasted or fried for a tangy, savory dish often served with rice."},
-      "ingredients": ["pork", "fermented rice"],
-      "allergens": [],
-      "price": 18000,
-      "currency": "LAK",
-      "image": "https://cookingwithlane.com/wp-content/uploads/2020/05/laos-sour-pork-sausage-som-moo.jpg",
-      "tags": ["fermented", "savory"],
-      "cultural_notes": {"en": "A traditional preserved-meat dish with bold fermented flavors."},
-      "spice_level": 2,
-      "recommended_pairings": ["Sticky Rice"],
-      "availability": "Lunch/Dinner",
-      "preparation_time_minutes": 120
-    },
+  "id": "muu_som",
+  "name": {
+    "en": "Muu Som (Fermented Sour Pork)",
+    "lo": "ໝູສົ້ມ",
+    "hm": "nqaij npua qaub"
+  },
+  "transliteration": {
+    "lo_to_latn": "ໝູສົ້ມ",
+    "hm_to_latn": "nqaij npua qaub"
+  },
+  "pronunciation": {
+    "lo": "mùu sǒm",
+    "hm": "nqaij npua qaub"
+  },
+  "category": "Main",
+  "description": {
+    "en": "Pork fermented with rice then roasted or fried for a tangy, savory dish often served with rice.",
+    "lo": "ໝູໝັກກັບເຂົ້າໃຫ້ເກີດລົດສົ້ມ ນຳໄປທອດ ຫຼື ປີ້ງ ກິນຄູ່ກັບເຂົ້າ",
+    "hm": "nqaij npua muab zom nrog mov cia kom qaub, ces kib lossis ci noj, feem ntau noj nrog mov"
+  },
+  "ingredients": ["pork", "fermented rice"],
+  "allergens": [],
+  "price": 18000,
+  "currency": "LAK",
+  "image": "https://cookingwithlane.com/wp-content/uploads/2020/05/laos-sour-pork-sausage-som-moo.jpg",
+  "tags": ["fermented", "savory"],
+  "cultural_notes": {
+    "en": "A traditional preserved-meat dish with bold fermented flavors.",
+    "lo": "ເປັນອາຫານພື້ນບ້ານທີ່ໃຊ້ວິທີໝັກເພື່ອຖະຫຼອດອາຫານ ແລະ ມີລົດຊາດເຂັ້ມ",
+    "hm": "yog zaub mov qub uas khaws cia los ntawm kev zom kom qaub, muaj tsw qab zog"
+  },
+  "spice_level": 2,
+  "recommended_pairings": ["Sticky Rice"],
+  "availability": "Lunch/Dinner",
+  "preparation_time_minutes": 120
+},
     {
-      "id": "paa_tod",
-      "name": {"en": "Paa Tod (Crispy Catfish)", "lo": "Paa Tod (placeholder)", "hm": "Paa Tod (placeholder)"},
-      "transliteration": {"lo_to_latn": "paa tod", "hm_to_latn": "paa tod"},
-      "pronunciation": {"lo": "[lao pronunciation placeholder]", "hm": "[hmong pronunciation placeholder]"},
-      "category": "Main",
-      "description": {"en": "Crispy fried catfish fillets dressed with a tangy, spicy sauce and fresh garnishes."},
-      "ingredients": ["catfish", "rice flour", "herbs"],
-      "allergens": ["fish"],
-      "price": 23000,
-      "currency": "LAK",
-      "image": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/papaya-salad-new-sq.jpg",
-      "tags": ["fried", "crispy"],
-      "cultural_notes": {"en": "A popular river-catch dish, often brightened with mango or herbs."},
-      "spice_level": 3,
-      "recommended_pairings": ["Sticky Rice", "Tam Muk Muang"],
-      "availability": "Lunch/Dinner",
-      "preparation_time_minutes": 30
-    }
+  "id": "paa_tod",
+  "name": {
+    "en": "Paa Tod (Crispy Catfish)",
+    "lo": "ປາທອດກອບ",
+    "hm": "ntses kib khov"
+  },
+  "transliteration": {
+    "lo_to_latn": "paa tod",
+    "hm_to_latn": "ntses kib"
+  },
+  "pronunciation": {
+    "lo": "pàa tɔ̂ɔt",
+    "hm": "ntses kib khov"
+  },
+  "category": "Main",
+  "description": {
+    "en": "Crispy fried catfish fillets dressed with a tangy, spicy sauce and fresh garnishes.",
+    "lo": "ປາທອດໃຫ້ກອບ ຮາດດ້ວຍນ້ຳຈິ້ມລົດສົ້ມເຜັດ ແລະ ຜັກສົດ",
+    "hm": "ntses kib kom khov, muab nrog kua ntsw qab qaub qab ntsim thiab zaub tshiab"
+  },
+  "ingredients": ["catfish", "rice flour", "herbs"],
+  "allergens": ["fish"],
+  "price": 23000,
+  "currency": "LAK",
+  "image": "https://hot-thai-kitchen.com/wp-content/uploads/2016/06/papaya-salad-new-sq.jpg",
+  "tags": ["fried", "crispy"],
+  "cultural_notes": {
+    "en": "A popular river-catch dish, often brightened with mango or herbs.",
+    "lo": "ເປັນອາຫານຍອດນິຍົມຈາກປານ້ຳ ມັກກິນຄູ່ກັບຜັກ ຫຼື ໝາກໄມ້ສົດ",
+    "hm": "yog zaub mov nrov los ntawm ntses dej, feem ntau noj nrog zaub lossis txiv hmab txiv ntoo tshiab"
+  },
+  "spice_level": 3,
+  "recommended_pairings": ["Sticky Rice", "Tam Muk Muang"],
+  "availability": "Lunch/Dinner",
+  "preparation_time_minutes": 30
+}
 ]
